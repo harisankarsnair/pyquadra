@@ -44,9 +44,9 @@ option = st.sidebar.radio('Select an option',('Home','find the factor of a no:',
 
 # OPTION 1 - Home page
 
-if option == 'Home':
-    st.title("All in one Maths app")
-    st.subheader("App to do almost all the calculations in Maths.")
+#if option == 'Home':
+   # st.title("All in one Maths app")
+   # st.subheader("App to do almost all the calculations in Maths.")
 
 # OPTION 2 - factors of a no:
 
