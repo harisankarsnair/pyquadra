@@ -40,7 +40,7 @@ def pairOfNum(b, c):
         return st.write("No such pair of numbers exist.")
 
 st.sidebar.title('Options')
-option = st.sidebar.radio('Select an option',('Home','find the factor of a no:','find the pair of no:s from the sum and product'))
+option = st.sidebar.radio('Select an option',('find the pair of no:s from the sum and product','find the factor of a no:''find the pair of no:s from the sum and product'))
 
 # OPTION 1 - Home page
 
