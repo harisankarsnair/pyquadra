@@ -55,6 +55,9 @@ if option == 'find the factor of a no:':
     num = st.number_input("Insert the number:",max_value=10000)
 
     st.write("The factors of ",num," are",print_factor(num))
+    st.markdown(
+        "###### Made in [![this is an image link](https://i.imgur.com/iIOA6kU.png)](https://www.streamlit.io/)&nbsp, with :heart: by [@harisankarsnair](https://github.com/HarisankarSNair)"
+    )
 
 # OPTION 3 - Pair of numbers
 
@@ -63,5 +66,6 @@ if option == 'find the pair of no:s from the sum and product':
     sum = st.number_input("Enter the sum")
     product = st.number_input("Enter the product")
     pairOfNum(-sum, product)
-    
-
+    st.markdown(
+        "###### Made in [![this is an image link](https://i.imgur.com/iIOA6kU.png)](https://www.streamlit.io/)&nbsp, with :heart: by [@harisankarsnair](https://github.com/HarisankarSNair)"
+    )
