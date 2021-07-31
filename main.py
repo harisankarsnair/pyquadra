@@ -70,11 +70,11 @@ if option == 'find the pair of no:s from the sum and product':
         "###### Made in [![this is an image link](https://i.imgur.com/iIOA6kU.png)](https://www.streamlit.io/)&nbsp, with :heart: by [@harisankarsnair](https://github.com/HarisankarSNair)"
     )
 # hide footer 
-hide_st_style = '''
-<style>
+#hide_st_style = '''
+#<style>
 #MainMenu {visibility: hidden;}
-footer {visibility: hidden;}
-</style>
-'''
-st.markdown(hide_st_style, unsafe_allow_html=true)
+#footer {visibility: hidden;}
+#</style>
+#'''
+#st.markdown(hide_st_style, unsafe_allow_html=true)
                
